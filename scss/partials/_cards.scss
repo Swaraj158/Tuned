@@ -1,0 +1,20 @@
+@import "modules/mixins.scss";
+
+.btn-secondary{
+    @include responsive(lg){
+        overflow:hidden;
+        text-overflow: ellipsis;
+    }
+    @include responsive(sm){
+        overflow:hidden;
+        text-overflow: ellipsis;
+    }
+}
+.card-img-top{
+    height: 230px;
+    width: 300px;
+}
+
+.card-title{
+    color: $color-bg-blue;
+}

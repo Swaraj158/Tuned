@@ -1,0 +1,30 @@
+.form-box{
+    margin-top: 100px;
+}
+
+.form-box h3{
+    font-size: xx-large;
+    color: $color-bg-blue;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+.form-group label{
+    color: black;
+    font-weight: 500;
+    margin:5px;
+}
+
+.form-check{
+    margin: 20px 10px 20px 10px;
+}
+
+.glyphicon-envelope:before{
+    content:"\2709"
+}
+
+.glyphicon-eye-open:before{
+    content:"\e105"
+}

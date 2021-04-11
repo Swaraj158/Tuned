@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.navbar-brand {
+  font-size: 30px;
+  margin-left: 20px; }
+
+.navbar-dark .navbar-brand {
+  color: #fff000;
+  font-weight: 600; }
+
+.nav-item {
+  font-size: 18px;
+  padding: 5px; }
+
+.btn-outline-success {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white; }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .btn-secondary {
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  .btn-secondary {
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+
+.card-img-top {
+  height: 230px;
+  width: 300px; }
+
+.card-title {
+  color: #1e4e79; }
+
+.form-box {
+  margin-top: 100px; }
+
+.form-box h3 {
+  font-size: xx-large;
+  color: #1e4e79; }
+
+.form-group {
+  margin: 10px; }
+
+.form-group label {
+  color: black;
+  font-weight: 500;
+  margin: 5px; }
+
+.form-check {
+  margin: 20px 10px 20px 10px; }
+
+.glyphicon-envelope:before {
+  content: "✉"; }
+
+.glyphicon-eye-open:before {
+  content: ""; }
+
+.table {
+  margin-top: 100px; }
+
+.table thead {
+  background-color: #1e4e79;
+  color: white; }
+
+.table td {
+  background-color: #DAE7E4; }
+
+.popover {
+  border: 2px  red; }
+
+/*# sourceMappingURL=style.css.map */
